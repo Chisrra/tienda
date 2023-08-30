@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb8a2377-7923-44f4-b874-90919b144e2f" name="Changes" comment="Created productoDAO and enum Categoria">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/dao/ProductoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/definitions/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/entities/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/pruebas/RegistroProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/utils/JPAUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="cb8a2377-7923-44f4-b874-90919b144e2f" name="Changes" comment="Created productoDAO, JPAUtils and enum Categoria">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/dao/CategoriaDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/definitions/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/definitions/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/entities/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/entities/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/pruebas/RegistroProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chisrra/tienda/pruebas/RegistroProducto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,7 +92,7 @@
       <updated>1692753996855</updated>
       <workItem from="1692753998279" duration="427000" />
       <workItem from="1692929496070" duration="6148000" />
-      <workItem from="1693365103353" duration="1634000" />
+      <workItem from="1693365103353" duration="4243000" />
     </task>
     <task id="LOCAL-00001" summary="First commit and dependencies">
       <created>1692754421854</created>
@@ -106,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692754421854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created productoDAO, JPAUtils and enum Categoria">
+      <created>1693366854364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693366854364</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit and dependencies" />
     <MESSAGE value="Created productoDAO and enum Categoria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created productoDAO and enum Categoria" />
+    <MESSAGE value="Created productoDAO, JPAUtils and enum Categoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created productoDAO, JPAUtils and enum Categoria" />
   </component>
 </project>
