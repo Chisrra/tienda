@@ -1,6 +1,6 @@
 package com.chisrra.tienda.dao;
 
-import com.chisrra.tienda.definitions.Categoria;
+import com.chisrra.tienda.entities.Categoria;
 
 import javax.persistence.EntityManager;
 
@@ -14,4 +14,12 @@ public class CategoriaDAO {
     public void guardar(Categoria producto) {
         this.entityManager.persist(producto);
     }
+    public Categoria actualizar(Categoria categoria) {
+       return this.entityManager.merge(categoria);
+    }
+    public void remover(Categoria categoria) {
+        categoria = actualizar(categoria);
+        this.entityManager.remove(categoria);
+    }
+
 }

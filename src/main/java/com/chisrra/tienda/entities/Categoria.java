@@ -1,4 +1,4 @@
-package com.chisrra.tienda.definitions;
+package com.chisrra.tienda.entities;
 
 import javax.persistence.*;
 
@@ -32,5 +32,10 @@ public class Categoria {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Categoria{ Nombre='" + name+"' }";
     }
 }

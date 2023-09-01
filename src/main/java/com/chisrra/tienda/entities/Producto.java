@@ -1,14 +1,12 @@
 package com.chisrra.tienda.entities;
 
-import com.chisrra.tienda.definitions.Categoria;
-
 import javax.persistence.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
-@Table(name="productos")
+@Table(name = "productos")
 public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -61,5 +59,15 @@ public class Producto {
 
     public void setPrecio(BigDecimal precio) {
         this.precio = precio;
+    }
+
+    @Override
+    public String toString() {
+        return "Producto{ nombre='" + nombre + '\'' +
+                ", descripcion='" + descripcion + '\'' +
+                ", precio=" + precio +
+                ", fechaRegistro=" + fechaRegistro +
+                ", categoria=" + categoria +
+                " }";
     }
 }
